@@ -15,3 +15,11 @@ img {
   border-radius: 10px;
   padding: 25px;
 }
+
+/* fix images coming out of div on mobile browser */
+@media screen and (max-width: 500px) {
+  img {
+    max-width: 100;
+    max-height: 100;
+  }
+}
